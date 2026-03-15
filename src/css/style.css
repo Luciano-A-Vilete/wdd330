@@ -203,6 +203,29 @@ button {
   width: 100%;
 }
 
+.product__price-wrapper {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 0.75rem;
+}
+
+.product__original-price {
+  text-decoration: line-through;
+  color: var(--light-grey);
+  font-size: var(--small-font);
+}
+
+.product__discount-badge {
+  background-color: var(--tertiary-color);
+  color: white;
+  padding: 0.2em 0.6em;
+  border-radius: 3px;
+  font-size: var(--small-font);
+  font-weight: bold;
+}
+
 /* Start cart list card styles */
 .cart-card {
   display: grid;
