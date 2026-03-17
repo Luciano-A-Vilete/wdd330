@@ -191,6 +191,32 @@ button {
   font-size: 1em;
 }
 
+/* Product card discount indicator */
+.product-card__image-wrapper {
+  position: relative;
+}
+
+.product-card__discount-badge {
+  position: absolute;
+  top: 0.4em;
+  right: 0.4em;
+  background-color: var(--tertiary-color);
+  color: white;
+  padding: 0.2em 0.5em;
+  border-radius: 3px;
+  font-size: var(--small-font);
+  font-weight: bold;
+}
+
+.product-card__original-price {
+  text-decoration: line-through;
+  color: var(--light-grey);
+  font-size: var(--small-font);
+  margin-left: 0.3em;
+}
+
+/* End product card discount indicator */
+
 /* End product list card */
 
 .product-detail {
